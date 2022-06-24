@@ -9,6 +9,9 @@ ui <- dashboardPage(
                icon = icon('money-bill')),
       menuItem("Análisis por establecimiento", 
                tabName = "stores", 
+               icon = icon('chart-line')),
+      menuItem("Test", 
+               tabName = "test", 
                icon = icon('chart-line'))
     )
   ),
